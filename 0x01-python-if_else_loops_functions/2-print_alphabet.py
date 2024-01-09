@@ -1,3 +1,3 @@
 for alphabet in range(97,123):
-    print(chr(alphabet), end="")
-print()
+    print("{}" .format(chr(alphabet), end=""))
+
