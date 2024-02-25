@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
-for letter in range(ord('a'), ord('z') + 1):
-    if letter != ord('e') and letter != ord('q'):
-        print("{:c}".format(letter), end="")
-
-print()
-
+for char in range(ord('a'), ord('z') + 1):
+    if char != ord('e') and char != ord('q'):
+        print("{:c}".format(char), end="")
+print()  # Print a newline at the end
