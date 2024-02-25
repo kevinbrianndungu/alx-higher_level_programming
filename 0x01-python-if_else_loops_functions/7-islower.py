@@ -2,6 +2,7 @@
 def islower(c):
     return ord('a') <= ord(c) <= ord('z')
 
+
 # Test cases
 if __name__ == "__main__":
     print("a is {}".format("lower" if islower("a") else "upper"))
