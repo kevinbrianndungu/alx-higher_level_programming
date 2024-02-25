@@ -2,6 +2,7 @@
 def pow(a, b):
     return a ** b
 
+
 # Test cases
 if __name__ == "__main__":
     print(pow(2, 2))
