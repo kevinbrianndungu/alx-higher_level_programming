@@ -5,6 +5,7 @@ def uppercase(s):
         print("{}".format(upper_char), end="")
     print()  # Print a newline at the end
 
+
 # Test cases
 if __name__ == "__main__":
     uppercase("best")
