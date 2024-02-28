@@ -5,9 +5,10 @@ number = random.randint(-10000, 10000)
 
 # Your code goes here
 
-last_digit = number % 10
+last_digit = abs(number) % 10
+sign = -1 if number < 0 else 1  # Preserve the sign for negative numbers
 
-print("Last digit of", number, "is", last_digit, end=" ")
+print("Last digit of", number, "is", sign * last_digit, end=" ")
 
 if last_digit > 5:
     print("and is greater than 5")
